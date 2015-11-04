@@ -10,3 +10,9 @@ c:\users\briag_000\documents\visual studio 2015\Projects\WindowsFormsApplication
 C:\Users\briag_000\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\Runner2-Level-Editor\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 C:\Users\briag_000\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\Runner2-Level-Editor\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\briag_000\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\Runner2-Level-Editor\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\briag_000\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\Runner2-Level-Editor\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\briag_000\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\Runner2-Level-Editor\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\briag_000\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\Runner2-Level-Editor\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\briag_000\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\Runner2-Level-Editor\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\briag_000\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\Runner2-Level-Editor\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\briag_000\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\Runner2-Level-Editor\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache

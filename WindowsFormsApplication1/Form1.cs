@@ -37,7 +37,7 @@ namespace WindowsFormsApplication1
                 type = LevelItemTypeEnum.EndChallenge
             },
             new LevelItemType{
-                bytes = new byte[] {0x50,0x6C,0x61,0x79,0x53,0x6F,0x75,0x6E,0x64,0x00,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD,0xCD},
+                bytes = new byte[] {0x50,0x6C,0x61,0x79,0x53,0x6F,0x75,0x6E,0x64,0x00},
                 type = LevelItemTypeEnum.Sound //the next 28 are the sound
             },
             
@@ -89,7 +89,9 @@ namespace WindowsFormsApplication1
                     switch (type.type)
                     {
                         case LevelItemTypeEnum.Sound:
-                            output.Add(new SoundItem { type = type, location = location, soundbytes = new byte[0] });
+                            var sb = new byte[28];
+                            Array.Copy(level, location + 32, sb, 0, 28);
+                            output.Add(new SoundItem { type = type, location = location, soundbytes = sb });
                             break;
                         default:
                             output.Add(new LevelItem { type = type, location = location });

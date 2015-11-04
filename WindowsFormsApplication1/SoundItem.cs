@@ -11,7 +11,7 @@ namespace WindowsFormsApplication1
         public byte[] soundbytes;
         public override string outputLine()
         {
-            return string.Format("Location: {0} - {1} - {2}", location, type.type.ToFriendlyString(), soundbytes);
+            return string.Format("Location: {0} - {1} - {2}", location, type.type.ToFriendlyString(), Encoding.Default.GetString(soundbytes));
         }
     }
 }
